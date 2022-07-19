@@ -9,21 +9,31 @@ function Profile() {
   return (
     <div className="profile-container">
       <div className="missions">
-        <h3>My missions</h3>
         <table>
-          {
+          <thead>
+            <tr><th>My missions</th></tr>
+          </thead>
+          <tbody>
+            {
           myMission.map((mission) => (
-            <tr key={mission.mission_id}>{mission.mission_name}</tr>
+            <tr key={mission.mission_id}><td>{mission.mission_name}</td></tr>
           ))
         }
+          </tbody>
         </table>
       </div>
       <div className="rockets">
-        <h3>My Rockets</h3>
         <table>
-          {
-          myRockets.map((rocket) => (<tr key={rocket.rocket_id}>{rocket.rocket_name}</tr>))
+          <thead>
+            <tr><th>My Rockets</th></tr>
+          </thead>
+          <tbody>
+            {
+          myRockets.map((rocket) => (
+            <tr key={rocket.rocket_id}><td>{rocket.rocket_name}</td></tr>
+          ))
         }
+          </tbody>
         </table>
       </div>
 

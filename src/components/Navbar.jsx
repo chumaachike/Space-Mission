@@ -30,7 +30,7 @@ function Navbar() {
       <ul className="nav-links">
         {links.map((link) => (
           <li className="nav-link" key={link.id}>
-            <NavLink activeClassName="active" to={link.path}>
+            <NavLink className={(navData) => (navData.isActive ? 'active' : 'none')} to={link.path}>
               {link.text}
             </NavLink>
           </li>

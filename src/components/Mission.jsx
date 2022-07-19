@@ -25,13 +25,17 @@ function Mission() {
   );
   return (
     <table>
-      <tr>
-        <th>Mission</th>
-        <th>Description</th>
-        <th>Status</th>
-        <th />
-      </tr>
-      {renderedItems}
+      <thead>
+        <tr>
+          <th>Mission</th>
+          <th>Description</th>
+          <th>Status</th>
+          <th />
+        </tr>
+      </thead>
+      <tbody>
+        {renderedItems}
+      </tbody>
     </table>
   );
 }
