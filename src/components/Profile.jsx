@@ -12,7 +12,9 @@ function Profile() {
         <h3>My missions</h3>
         <table>
           {
-          myMission.map((mission) => (<td key={mission.mission_id}>{mission.mission_name}</td>))
+          myMission.map((mission) => (
+            <tr key={mission.mission_id}>{mission.mission_name}</tr>
+          ))
         }
         </table>
       </div>
@@ -20,7 +22,7 @@ function Profile() {
         <h3>My Rockets</h3>
         <table>
           {
-          myRockets.map((rocket) => (<td key={rocket.rocket_id}>{rocket.rocket_name}</td>))
+          myRockets.map((rocket) => (<tr key={rocket.rocket_id}>{rocket.rocket_name}</tr>))
         }
         </table>
       </div>
