@@ -1,12 +1,19 @@
 import axios from 'axios';
 
-const hhh = 10;
-export const getMissions = () => {
-  axios({
+export const getMissions = async () => {
+  const missionsData = await axios({
     method: 'GET',
     url: 'https://api.spacexdata.com/v3/missions',
-  }).then((response) => console.log(response))
-    .catch((err) => console.log(err));
+  }).then((response) => response.data)
+    .catch((err) => err.message);
+  return missionsData;
 };
 
-export default hhh;
+export const getRockets = () => {
+  const rocketsData = axios({
+    method: 'GET',
+    url: 'https://api.spacexdata.com/v3/rockets',
+  }).then((response) => response.data)
+    .catch((err) => err.message);
+  return rocketsData;
+};
