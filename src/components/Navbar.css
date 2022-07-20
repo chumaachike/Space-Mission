@@ -8,8 +8,8 @@
   padding: 0 10px;
 }
 
-header{
-  padding: 28px 0px;
+header {
+  padding: 28px 0;
   width: 100%;
   background-color: #9da5bd;
 }
@@ -25,7 +25,7 @@ header{
   align-items: center;
 }
 
-.nav-brand a{
+.nav-brand a {
   font-family: "Montserrat", sans-serif;
   font-size: 1.875rem;
   font-weight: bold;
@@ -39,8 +39,8 @@ header{
   gap: 20px;
 }
 
-.nav-link a{
-  color: 	#040c24;
+.nav-link a {
+  color: #040c24;
   font-weight: 600;
   font-size: 21px;
   text-decoration: none;
