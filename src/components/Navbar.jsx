@@ -22,6 +22,7 @@ function Navbar() {
     },
   ];
   return (
+    <header>
     <nav className="nav-bar">
       <div className="logo-brand">
         <img src={logo} alt="planet logo" className="logo-image" />
@@ -37,6 +38,7 @@ function Navbar() {
         ))}
       </ul>
     </nav>
+    </header>
   );
 }
 

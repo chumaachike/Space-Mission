@@ -1,9 +1,17 @@
 .nav-bar {
+  width: 80%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
   padding: 0 10px;
+}
+
+header{
+  padding: 28px 0px;
+  width: 100%;
+  background-color: #9da5bd;
 }
 
 .logo-image {
@@ -32,7 +40,9 @@
 }
 
 .nav-link a{
-  color: #7CB8FE;
+  color: 	#040c24;
+  font-weight: 600;
+  font-size: 21px;
   text-decoration: none;
 }
 

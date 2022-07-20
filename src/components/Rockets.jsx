@@ -24,7 +24,7 @@ function Rocket() {
     ),
 
   );
-  return <div>{renderedItem}</div>;
+  return <div className='mini-container'>{renderedItem}</div>;
 }
 
 export default Rocket;

@@ -15,8 +15,8 @@ function MissionCard({
     <tr>
       <td>{name}</td>
       <td>{des}</td>
-      <td>{isMember ? 'Active Member' : 'Not a member'}</td>
-      <td><button type="button" onClick={handleClick}>{isMember ? 'Leave mission' : 'join mission'}</button></td>
+      <td className='small'><span> {isMember ? 'Active Member' : 'Not a member'}</span></td>
+      <td className='small'><button type="button" onClick={handleClick}>{isMember ? 'Leave mission' : 'join mission'}</button></td>
     </tr>
   );
 }

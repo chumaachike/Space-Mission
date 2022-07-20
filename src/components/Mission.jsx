@@ -24,6 +24,7 @@ function Mission() {
     ),
   );
   return (
+    <div className='mini-container'>
     <table>
       <thead>
         <tr>
@@ -37,6 +38,7 @@ function Mission() {
         {renderedItems}
       </tbody>
     </table>
+    </div>
   );
 }
 
