@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { changeMember } from '../redux/Missions/Missions';
+import { changeMember } from '../redux/missions/missions';
 
 function MissionCard({
   des, name, id, isMember,
@@ -15,8 +15,13 @@ function MissionCard({
     <tr>
       <td>{name}</td>
       <td>{des}</td>
-      <td className='small'><span> {isMember ? 'Active Member' : 'Not a member'}</span></td>
-      <td className='small'><button type="button" onClick={handleClick}>{isMember ? 'Leave mission' : 'join mission'}</button></td>
+      <td className="small">
+        <span>
+          {' '}
+          {isMember ? 'Active Member' : 'Not a member'}
+        </span>
+      </td>
+      <td className="small"><button type="button" onClick={handleClick}>{isMember ? 'Leave mission' : 'join mission'}</button></td>
     </tr>
   );
 }

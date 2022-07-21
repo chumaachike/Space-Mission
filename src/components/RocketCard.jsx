@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { changeReservation } from '../redux/Rockets/Rockets';
+import { changeReservation } from '../redux/rockets/rockets';
 
 function RocketCard({
   name, img, des, reserved, id,
@@ -12,10 +12,10 @@ function RocketCard({
   };
   return (
     <div className="rocket-card">
-      <div className='img-contain'>
-      <img src={img} alt="" />
+      <div className="img-contain">
+        <img src={img} alt="" />
       </div>
-      
+
       <div className="rocket-content">
         <h3>{name}</h3>
         <p>{des}</p>

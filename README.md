@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# FoodAPI Capstone Project
+# Space Travelers
 
 > This is a FoodAPI application.
 
@@ -11,8 +11,6 @@
   - HTML5 & CSS3
   - JavaScript
 
-- **Preprocessors:**
-  - Sass
 
 - **Technologies:**
   - Webpack
@@ -22,7 +20,7 @@
   - BEM
 
 ## Live Demo
-Click on this link to see this project live demo: [Live Demo Link](https://masangana.github.io/capstone-project/)
+Click on this link to see this project live demo: [Live Demo Link](https://chumaachike.github.io/reactproject/)
 
 ## Getting Started
 
@@ -63,17 +61,12 @@ Open the ``index.html`` file inside the ``dist/`` folder in your Web Browser.
 - Twitter: [@AchikeChuma](https://twitter.com/AchikeChuma)
 - LinkedIn: [Edward Achike](https://www.linkedin.com/in/edward-achike-903432111/)
 
-👤 **Alex Masangana**
+👤 **Menanya Morris**
 
-- GitHub: [@masangana](https://github.com/masangana)
+- GitHub: [@Emmykage](https://github.com/masangana)
 - Twitter: [Alexmasangana](https://twitter.com/alexmasangana)
+- LinkedIn: [Edward Achike](https://www.linkedin.com/in/morris-menanya)
 
-
-👤 **Olaoluwa Owoeye**
-
-- GitHub: [@Olamarx](https://github.com/Olamarx)
-- Twitter: [@Owoeye0laoluwa](https://twitter.com/Owoeye0laoluwa)
-- LinkedIn: [Olaoluwa Owoeye](https://www.linkedin.com/in/olaoluwa-owoeye-617702162/)
 
 
 

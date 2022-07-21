@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test for Navbar component renders correctly: navbar 1`] = `
+<header>
+  <nav
+    className="nav-bar"
+  >
+    <div
+      className="logo-brand"
+    >
+      <img
+        alt="planet logo"
+        className="logo-image"
+        src="planet.svg"
+      />
+      <h2
+        className="nav-brand"
+      >
+        <a
+          href="/"
+        >
+          Space Travelers' Hub
+        </a>
+      </h2>
+    </div>
+    <ul
+      className="nav-links"
+    >
+      <li
+        className="nav-link"
+      >
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+        >
+          Rockets
+        </a>
+      </li>
+      <li
+        className="nav-link"
+      >
+        <a
+          className="none"
+          href="/mission"
+          onClick={[Function]}
+        >
+          Mission
+        </a>
+      </li>
+      <li
+        className="nav-link"
+      >
+        <a
+          className="none"
+          href="/profile"
+          onClick={[Function]}
+        >
+          Profile
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

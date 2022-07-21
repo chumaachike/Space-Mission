@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getAllRockets } from '../redux/Rockets/Rockets';
+import { getAllRockets } from '../redux/rockets/rockets';
 import RocketCard from './RocketCard';
 
 function Rocket() {
@@ -24,7 +24,7 @@ function Rocket() {
     ),
 
   );
-  return <div className='mini-container'>{renderedItem}</div>;
+  return <div className="mini-container">{renderedItem}</div>;
 }
 
 export default Rocket;

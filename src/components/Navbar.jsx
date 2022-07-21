@@ -23,21 +23,21 @@ function Navbar() {
   ];
   return (
     <header>
-    <nav className="nav-bar">
-      <div className="logo-brand">
-        <img src={logo} alt="planet logo" className="logo-image" />
-        <h2 className="nav-brand"><a href="/">Space Travelers&apos; Hub</a></h2>
-      </div>
-      <ul className="nav-links">
-        {links.map((link) => (
-          <li className="nav-link" key={link.id}>
-            <NavLink className={(navData) => (navData.isActive ? 'active' : 'none')} to={link.path}>
-              {link.text}
-            </NavLink>
-          </li>
-        ))}
-      </ul>
-    </nav>
+      <nav className="nav-bar">
+        <div className="logo-brand">
+          <img src={logo} alt="planet logo" className="logo-image" />
+          <h2 className="nav-brand"><a href="/">Space Travelers&apos; Hub</a></h2>
+        </div>
+        <ul className="nav-links">
+          {links.map((link) => (
+            <li className="nav-link" key={link.id}>
+              <NavLink className={(navData) => (navData.isActive ? 'active' : 'none')} to={link.path}>
+                {link.text}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </header>
   );
 }

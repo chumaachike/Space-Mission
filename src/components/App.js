@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './Navbar';
+import Navbar from './navbar';
 import Rockets from './Rockets';
 import Mission from './Mission';
-import Profile from './Profile';
+import Profile from './profile';
 import './app.css';
 import './styles.css';
 
