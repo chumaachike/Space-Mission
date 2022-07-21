@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 
-import Profile from '../profile';
+import Profile from '../Profile';
 
 const Container = () => {
   <BrowserRouter>

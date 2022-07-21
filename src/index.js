@@ -1,8 +1,9 @@
+/* eslint-disable import/extensions */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
 import App from './components/App';
-import ConfigureStore from './redux/ConfigureStore';
+import ConfigureStore from './redux/ConfigureStore.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
