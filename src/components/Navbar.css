@@ -1,0 +1,52 @@
+.nav-bar {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 0 10px;
+}
+
+header {
+  padding: 28px 0;
+  width: 100%;
+  background-color: #9da5bd;
+}
+
+.logo-image {
+  width: 5%;
+  height: 5%;
+}
+
+.logo-brand {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-brand a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.nav-link a {
+  color: #040c24;
+  font-weight: 600;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+li .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
