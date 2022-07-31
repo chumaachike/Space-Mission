@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { changeReservation } from '../redux/Rockets/Rockets';
+import { changeReservation } from '../redux/rockets/rockets';
 
 function RocketCard({
   name, img, des, reserved, id,

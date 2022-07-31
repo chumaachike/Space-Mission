@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { changeMember } from '../redux/Missions/Missions';
+import { changeMember } from '../redux/missions/missions';
 
 function MissionCard({
   des, name, id, isMember,
