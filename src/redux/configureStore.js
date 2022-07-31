@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
-import Missions from './Missions/Missions';
+import Missions from './missions/missions';
 import Rockets from './Rockets/Rockets';
 
 const Store = configureStore({
