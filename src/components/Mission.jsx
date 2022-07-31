@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getAllMissions } from '../redux/missions/missions';
-import MissionCard from './missionCard';
+import MissionCard from './MissionCard';
 
 function Mission() {
   const allMissions = useSelector((state) => state.Missions);
