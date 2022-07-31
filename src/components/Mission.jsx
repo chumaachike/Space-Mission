@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getAllMissions } from '../redux/missions/missions';
+import { getAllMissions } from '../redux/Missions/Missions';
 import MissionCard from './MissionCard';
 
 function Mission() {
