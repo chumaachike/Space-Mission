@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
 import Missions from './missions/missions';
-import Rockets from './Rockets/Rockets';
+import Rockets from './rockets/rockets';
 
 const Store = configureStore({
   reducer: {
